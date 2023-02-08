@@ -1,0 +1,32 @@
+
+.App {
+    width: 100%;
+    height: auto;
+}
+.map-container {
+    height: 100%;
+    width: 100%;
+}
+.map-title {
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    color: aliceblue;
+    justify-content: center;
+    font-family: Poppins;
+}
+.leaflet-container {
+    width: 97%;
+    height: 97%;
+    border-radius: 14px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.move{
+    position:fixed;
+    bottom: 0;
+
+}

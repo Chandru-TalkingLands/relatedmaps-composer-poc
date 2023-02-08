@@ -1,0 +1,143 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.composer {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.container-sidebar {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.top-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     width: 400px;
+     height: 800px;
+     overflow-y: scroll;
+     border: 2px solid whitesmoke;
+     color: black;
+}
+.top-title-form {
+    display: flex;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #082032;
+    font-weight: 600;
+}
+.add-story-btn {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    color: #00B4D8;
+    font-family: Poppins;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rel-data{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.main-form-div {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-bottom: 0px;
+}
+.image-upload {
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: grey;
+}
+.upload-image-photo {
+    height: 70px;
+    width: 70px;
+}
+.allowed-text {
+    font-size: 10px;
+    font-family: Poppins;
+    color: grey;
+}
+.text-input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+.titleText {
+   
+    font-family: Poppins;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+.descriptionText {
+   
+    font-family: Poppins;
+    margin-top: 14px;
+    font-weight: 500;
+    width: 100%;
+    font-size: 20px;
+    resize: vertical;
+    border-width: 1.5px;
+    border-radius: 4px;
+    background-color: transparent;
+    border-color: #CBB69D;
+}
+
+.save-exit-btn {
+    width: 100%;
+    height: 48px;
+    font-family: Poppins;
+    border-radius: 5px;
+    background-color: #D85E54;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-width: 0px;
+    border-color: #D85E54;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-preview {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.map {
+    height: auto;
+    width: 70%;
+    background-color: aquamarine;
+}
+.container-map {
+    height: auto;
+    width: 70%;
+    background-color: transparent;
+}

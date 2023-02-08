@@ -1,0 +1,70 @@
+.card {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: fit-content;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+    background-color: rgb(242, 251, 253)
+    /* width: -webkit-fill-available; */
+}
+.card-img {
+    width: 90%;
+    height: 160px;
+    display: flex;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+.card-title {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px 20px 0 20px;    
+    /* align-self: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    padding: 10px 0 0 20px;
+    margin-left: 20px;
+    margin-top: -10px; */
+}
+.card-story {
+    
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    width: 260px;
+    height: auto;
+    border-width: 0px;
+    background-color: transparent;
+}
+.hdr-card{
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 0px;
+    padding: 10px;
+    border-width: 0px;
+    background-color: transparent;
+    display: flex;
+}
+.card-actions {
+    align-self: flex-end;
+    margin-right: 30px;
+}
+.card-icon-edit {
+    height: 16px;
+    width: 16px;
+    padding: 6px;
+}
+.card-icon-delete {
+    height: 16px;
+    width: 16px;
+    padding: 6px;
+}
